@@ -32,3 +32,5 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 }
+
+//this is a comment by Giuliani
