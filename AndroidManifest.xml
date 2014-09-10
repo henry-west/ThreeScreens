@@ -23,12 +23,29 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".MeredithScreen"
             android:label="@string/title_activity_meredith_screen" >
         </activity>
         <activity
             android:name=".GiulianiScreen"
             android:label="@string/title_activity_giuliani_screen" >
+=======
+            android:name=".SecondScreen"
+            android:label="@string/title_activity_second_screen"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.threescreens.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ThirdScreen"
+            android:label="@string/title_activity_third_screen"
+            android:parentActivityName=".SecondScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.threescreens.SecondScreen" />
+>>>>>>> FETCH_HEAD
         </activity>
     </application>
 
