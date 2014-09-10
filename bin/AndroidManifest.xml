@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MeredithScreen"
+            android:label="@string/title_activity_meredith_screen" >
+        </activity>
+        <activity
+            android:name=".GiulianiScreen"
+            android:label="@string/title_activity_giuliani_screen" >
+        </activity>
     </application>
 
 </manifest>
