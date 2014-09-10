@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SecondScreen"
+            android:label="@string/title_activity_second_screen"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.threescreens.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ThirdScreen"
+            android:label="@string/title_activity_third_screen"
+            android:parentActivityName=".SecondScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.threescreens.SecondScreen" />
+        </activity>
     </application>
 
 </manifest>

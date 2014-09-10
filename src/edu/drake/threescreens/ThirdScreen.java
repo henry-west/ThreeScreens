@@ -1,33 +1,22 @@
 package edu.drake.threescreens;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class MainActivity extends Activity {
-	
-	public void sendMessage(View view ) {
-		Intent intent = new Intent(this, SecondScreen.class);
-		startActivity(intent);
-	}
-	public void sendMessage2(View view ) {
-		Intent intent = new Intent(this, ThirdScreen.class);
-		startActivity(intent);
-	}
+public class ThirdScreen extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_third_screen);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.third_screen, menu);
 		return true;
 	}
 
@@ -43,5 +32,3 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 }
-
-//this is a comment by Giuliani
