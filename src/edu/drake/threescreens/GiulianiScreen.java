@@ -6,7 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
+/*
+ * I am commenting here
+ * I like to comment
+ * comment comment comment
+ */
 public class GiulianiScreen extends Activity {
 
 	@Override
