@@ -9,15 +9,6 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 	
-	public void sendMessage(View view ) {
-		Intent intent = new Intent(this, SecondScreen.class);
-		startActivity(intent);
-	}
-	public void sendMessage2(View view ) {
-		Intent intent = new Intent(this, ThirdScreen.class);
-		startActivity(intent);
-	}
-
 	public void screenTwo(View view) {
 		Intent intent = new Intent(this, MeredithScreen.class);
 		startActivity(intent);

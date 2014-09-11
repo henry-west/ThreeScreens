@@ -7,13 +7,13 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:text="@string/hello_world"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" >
 
         <Button
             android:id="@+id/button1"
@@ -30,29 +30,7 @@
             android:onClick="screenThree" />
 
     </LinearLayout>
-=======
-        android:text="Welcome to the first screen"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/joggles" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Second Screen" 
-        android:onClick="sendMessage"/>
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Third Screen" 
-        android:onClick= "sendMessage2"/>
->>>>>>> FETCH_HEAD
 
 </LinearLayout>
