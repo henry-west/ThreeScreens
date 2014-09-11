@@ -9,5 +9,6 @@
     <string name="title_activity_giuliani_screen">GiulianiScreen</string>
     <string name="m_button">To Screen Two</string>
     <string name="g_button">To Screen Three</string>
+    <string name="Hi There">Hello There :)</string>
 
 </resources>
